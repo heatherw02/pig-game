@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pig_gui.css">
+    <script src="pig_game_gui.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="title">
+            The Pig Dice Game - Play To 50
+        </div>
+            <div id="player1-background">
+                <h2 id="player1-name">Player 1</h2>
+                <p id="player1-text">It is YOUR Turn</p>
+                <h1 id="player1-score">Score: 0</h1>
+            </div>
+
+        <div class="button-panel">
+            <button class="roll-button" onclick="roll()">Roll</button>
+            <img id="dice-img" src="./imgs/dice1.png" alt="Dice Landed on 1">
+            <button class="hold-button" onclick="hold()">Hold</button>
+        </div>
+
+        <div id="player2-background">
+            <h2 id="player2-name">Player 2</h2>
+            <p id="player2-text">It is NOT your Turn</p>
+            <h1 id="player2-score">Score: 0</h1>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
